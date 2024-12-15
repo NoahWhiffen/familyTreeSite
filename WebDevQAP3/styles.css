@@ -1,0 +1,195 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+
+header {
+    background-color: gray;
+    width: 975px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+#header1 {
+    color: white;
+    float: left;
+}
+
+#header2 {
+    color: black;
+    float: left;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    text-decoration: underline;
+}
+
+
+.bar {
+    background-color: gray;
+    height: 30px;
+    width: 1000px;
+    padding-bottom: 10px;
+
+}
+
+.container {
+    padding-top: 25px;
+    margin: auto;
+}
+
+.box-blank {
+    background-color: antiquewhite;
+    height: 135px;
+    width:  115px;
+    float: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+.box-colored {
+    background-color:rgb(157,193,131);
+    height: 135px;
+    width: 115px;
+    float: left;
+    padding: 2px;
+    margin: 2px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text-div {
+    padding-top: 125px;
+    padding-right: 50px;
+}
+
+.div-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.div-links:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.div-links:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+img {
+    height: 135px;
+    width: 115px;
+    float: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 215px;
+    width: 1000px;
+    background-color: lightgray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-box {
+    height: 185px;
+    width: 210px;
+    float: left;
+    padding: 10px;
+}
+
+.footer-photo {
+    height: 185px;
+    width: 210px;
+    float: left;
+    padding: 15px;
+}
+
+p {
+    padding-left: 10px;
+}
+
+.gallery-button {
+    height: 25px;
+    width: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.gallery-button a {
+    color: white;
+    
+}
+
+.gallery-button a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.gallery-button a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+.bar-bottom {
+    background-color: gray;
+    height: 30px;
+    width: 1000px;
+    padding-bottom: 10px;
+
+}
+
+.footer-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer-links:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
